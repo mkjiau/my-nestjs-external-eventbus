@@ -29,7 +29,12 @@ curl -k "https://localhost:3000/contrived?aaa=123&bbb=312" # in other terminal
 ```
 
 ### Refs
+* https://docs.nestjs.com/recipes/cqrs
+* https://github.com/kamilmysliwiec/nest-cqrs-example
 * [nestjs-transport-eventbus](https://github.com/sergey-telpuk/nestjs-transport-eventbus) 
 * https://dev.to/sergey_telpuk/transport-eventbus-for-nestjs-1cnh
 * https://github.com/nestjs/cqrs/pull/12
 * https://github.com/nestjs/docs.nestjs.com/issues/1239
+* https://dzone.com/articles/microservices-with-cqrs-and-event-sourcing
+* https://otonomo.io/blog/redis-kafka-or-rabbitmq-which-microservices-message-broker-to-choose/
+* https://kknews.cc/zh-tw/news/xpr39y9.html
