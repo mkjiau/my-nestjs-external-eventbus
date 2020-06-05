@@ -65,5 +65,7 @@ services:
       RABBITMQ_ERLANG_COOKIE: SWQOKODSQALRPCLNMEQG
       RABBITMQ_DEFAULT_USER: rabbit
       RABBITMQ_DEFAULT_PASS: rabbit
+    ports:
+      - 8000:15672
     volumes:
       - ./docker/rabbitmq/enabled_plugins:/etc/rabbitmq/enabled_plugins

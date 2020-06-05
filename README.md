@@ -28,6 +28,12 @@ curl -k "https://localhost:3000/contrived?aaa=123&bbb=312" # in other terminal
 }
 ```
 
+### RabbitMQ
+* http://localhost:8000
+* amqp://rabbit:rabbit@rabbitmq:5672
+
+
+
 ### Refs
 * https://docs.nestjs.com/recipes/cqrs
 * https://github.com/kamilmysliwiec/nest-cqrs-example
